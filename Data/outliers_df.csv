@@ -1,0 +1,25 @@
+Sector,Ticker,outliers_count
+Supermercados,WMT,0
+Manufactura,GM,0
+Supermercados,COST,0
+Energia,BP,0
+Energia,CVX,83
+Energia,XOM,18
+Supermercados,KR,9
+Finanzas,GS,0
+Finanzas,BAC,0
+Finanzas,JPM,0
+Manufactura,CAT,0
+Telecomunicaciones,TMUS,0
+Telecomunicaciones,T,47
+Telecomunicaciones,VZ,7
+E-commerce,EBAY,0
+Farmaceutica,JNJ,0
+E-commerce,BABA,0
+E-commerce,AMZN,0
+Tecnologia de Comunicacion,CSCO,0
+Tecnologia de Comunicacion,MSFT,0
+Farmaceutica,MRK,68
+Farmaceutica,PFE,2
+Manufactura,F,10
+Tecnologia de Comunicacion,ZM,0

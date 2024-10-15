@@ -1,0 +1,97 @@
+Sector,Ticker,comulative_retunrs,Period
+E-commerce,AMZN,28.69,All view
+E-commerce,BABA,-22.6,All view
+E-commerce,EBAY,24.85,All view
+Energia,BP,-16.13,All view
+Energia,CVX,46.47,All view
+Energia,XOM,47.07,All view
+Farmaceutica,JNJ,45.71,All view
+Farmaceutica,MRK,34.04,All view
+Farmaceutica,PFE,43.41,All view
+Finanzas,BAC,28.53,All view
+Finanzas,GS,76.68,All view
+Finanzas,JPM,18.37,All view
+Manufactura,CAT,64.0,All view
+Manufactura,F,27.89,All view
+Manufactura,GM,3.67,All view
+Supermercados,COST,104.77,All view
+Supermercados,KR,123.08,All view
+Supermercados,WMT,25.61,All view
+Tecnologia de Comunicacion,CSCO,-9.46,All view
+Tecnologia de Comunicacion,MSFT,123.79,All view
+Tecnologia de Comunicacion,ZM,47.39,All view
+Telecomunicaciones,T,15.99,All view
+Telecomunicaciones,TMUS,81.09,All view
+Telecomunicaciones,VZ,3.1,All view
+E-commerce,AMZN,11.29,Pre Pandemic
+E-commerce,BABA,38.75,Pre Pandemic
+E-commerce,EBAY,-1.58,Pre Pandemic
+Energia,BP,-19.9,Pre Pandemic
+Energia,CVX,-16.94,Pre Pandemic
+Energia,XOM,-25.62,Pre Pandemic
+Farmaceutica,JNJ,4.46,Pre Pandemic
+Farmaceutica,MRK,-2.67,Pre Pandemic
+Farmaceutica,PFE,-17.92,Pre Pandemic
+Finanzas,BAC,8.7,Pre Pandemic
+Finanzas,GS,11.58,Pre Pandemic
+Finanzas,JPM,11.43,Pre Pandemic
+Manufactura,CAT,5.32,Pre Pandemic
+Manufactura,F,-24.02,Pre Pandemic
+Manufactura,GM,-6.62,Pre Pandemic
+Supermercados,COST,17.38,Pre Pandemic
+Supermercados,KR,24.8,Pre Pandemic
+Supermercados,WMT,6.61,Pre Pandemic
+Tecnologia de Comunicacion,CSCO,-21.24,Pre Pandemic
+Tecnologia de Comunicacion,MSFT,36.47,Pre Pandemic
+Tecnologia de Comunicacion,ZM,38.34,Pre Pandemic
+Telecomunicaciones,T,19.78,Pre Pandemic
+Telecomunicaciones,TMUS,21.51,Pre Pandemic
+Telecomunicaciones,VZ,-0.9,Pre Pandemic
+E-commerce,AMZN,64.95,Pandemic
+E-commerce,BABA,1.41,Pandemic
+E-commerce,EBAY,72.01,Pandemic
+Energia,BP,-11.43,Pandemic
+Energia,CVX,15.21,Pandemic
+Energia,XOM,19.0,Pandemic
+Farmaceutica,JNJ,24.92,Pandemic
+Farmaceutica,MRK,-2.93,Pandemic
+Farmaceutica,PFE,23.1,Pandemic
+Finanzas,BAC,48.94,Pandemic
+Finanzas,GS,82.1,Pandemic
+Finanzas,JPM,41.0,Pandemic
+Manufactura,CAT,95.18,Pandemic
+Manufactura,F,101.81,Pandemic
+Manufactura,GM,91.07,Pandemic
+Supermercados,COST,26.89,Pandemic
+Supermercados,KR,27.86,Pandemic
+Supermercados,WMT,25.62,Pandemic
+Tecnologia de Comunicacion,CSCO,33.96,Pandemic
+Tecnologia de Comunicacion,MSFT,46.3,Pandemic
+Tecnologia de Comunicacion,ZM,193.1,Pandemic
+Telecomunicaciones,T,-11.11,Pandemic
+Telecomunicaciones,TMUS,51.62,Pandemic
+Telecomunicaciones,VZ,4.0,Pandemic
+E-commerce,AMZN,-32.32,Post Pandemic
+E-commerce,BABA,-47.13,Post Pandemic
+E-commerce,EBAY,-29.52,Post Pandemic
+Energia,BP,11.42,Post Pandemic
+Energia,CVX,43.95,Post Pandemic
+Energia,XOM,53.16,Post Pandemic
+Farmaceutica,JNJ,9.66,Post Pandemic
+Farmaceutica,MRK,34.75,Post Pandemic
+Farmaceutica,PFE,36.81,Post Pandemic
+Finanzas,BAC,-23.91,Post Pandemic
+Finanzas,GS,-18.93,Post Pandemic
+Finanzas,JPM,-28.8,Post Pandemic
+Manufactura,CAT,-22.86,Post Pandemic
+Manufactura,F,-20.9,Post Pandemic
+Manufactura,GM,-43.92,Post Pandemic
+Supermercados,COST,25.05,Post Pandemic
+Supermercados,KR,31.43,Post Pandemic
+Supermercados,WMT,-12.62,Post Pandemic
+Tecnologia de Comunicacion,CSCO,-16.33,Post Pandemic
+Tecnologia de Comunicacion,MSFT,6.06,Post Pandemic
+Tecnologia de Comunicacion,ZM,-65.86,Post Pandemic
+Telecomunicaciones,T,3.58,Post Pandemic
+Telecomunicaciones,TMUS,-5.17,Post Pandemic
+Telecomunicaciones,VZ,-5.3,Post Pandemic

@@ -5,7 +5,7 @@ import pandas as pd
 tickers = {
      'Supermercados': ['WMT', 'COST', 'KR'],
     'Farmaceutica': ['PFE', 'JNJ', 'MRK'],
-    'Tecnologia de Comunicación': ['ZM', 'MSFT', 'CSCO'],
+    'Tecnologia de Comunicacion': ['ZM', 'MSFT', 'CSCO'],
     'E-commerce': ['AMZN', 'BABA', 'EBAY'],
     'Telecomunicaciones': ['VZ', 'T', 'TMUS'],
     'Finanzas': ['JPM', 'BAC', 'GS'],
