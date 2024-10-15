@@ -93,3 +93,152 @@ Por otro lado, algunas empresas del sector tecnológico, como Zoom (ZM) y ExxonM
 **4.7. Análisis de Tendencias y Estacionalidad**
 
 El análisis de descomposición de series de tiempo revela patrones significativos durante la pandemia, donde la mayoría de las empresas experimentaron caídas drásticas en sus valores estacionales. No obstante, algunas, como ExxonMobil (XOM), Verizon (VZ), Merck (MRK), Johnson & Johnson (JNJ) y Amazon (AMZN), mostraron notable resiliencia, recuperándose más rápidamente. En el periodo post-pandemia, varias de estas empresas mantienen una tendencia positiva y un crecimiento robusto, incluyendo a ExxonMobil, Pfizer (PFE), Microsoft (MSFT), Kroger (KR), Costco (COST), Caterpillar (CAT) y BP (BP). Esto sugiere no solo una efectiva recuperación, sino también una posible expansión en sus operaciones, reforzando su posición en un entorno post-pandemia.
+
+### **5. Visualización de Resultados**
+**5.1 Gráficos**
+
+- Los visualizaciones generadas con el análisis exploratorio esta disponibles en la carpeta de(["visualizations"](https://github.com/kevin-rsj/Sectores_Economicos_COVID-19/tree/main/visualizations)) .
+
+**5.2 Dashboard**
+El dashboard del proyecto, que resume los análisis y resultados del Análisis Exploratorio de Datos del comportamiento de sectores económicos antes, durante y después de la pandemia de COVID-19, esta disponible en Looker Studio:(["Link"](https://lookerstudio.google.com/reporting/2484ea4b-337d-467b-86fa-dd9e4a7c180c))
+
+-  **Portada**
+  
+    - **Titulo: Análisis de Sectores Económicos: Impacto de la Pandemia de COVID-19 (2019-2022**
+    - **Descripción** : Un análisis visual de los principales sectores económicos antes, durante y después de la pandemia de COVID-19. Se incluye la evolución de precios, volatilidad, y tendencias de recuperación de empresas representativas.
+    - **Periodo Analizado**: Junio 2019 - Junio 2022.
+    
+-  **Evolución Temporal por Sector**
+  
+    **Gráfico 1: Serie Temporal de Precios Ajustados** 
+    
+    - Tipo: **Gráfico de líneas múltiples**
+    - Ejes:
+        - **Eje X**: Tiempo (Años/meses: Junio 2019 - Junio 2022)
+        - **Eje Y**: Precio Ajustado
+    - **Propósito**: Mostrar la evolución de los precios de las acciones para los sectores clave en diferentes momentos de la pandemia.
+    
+    **Gráfico 2: Rendimiento Acumulado por Sector**
+    
+    - Tipo: **Gráfico de líneas**
+    - Ejes:
+        - **Eje X**: Tiempo (Años/meses: Junio 2019 - Junio 2022)
+        - **Eje Y**: Retornos normalizados
+    - **Propósito**: Evaluar el rendimiento acumulado de las empresas en cada sector durante el periodo pre-pandemia, pandemia y post-pandemia.
+  
+-  **Volatilidad y Comportamiento de Precios**
+  
+    **Gráfico 3: Volatilidad de Precios** 
+    
+    - Tipo: **Gráfico de caja (Boxplot)**
+    - Ejes:
+        - **Eje X**: Sectores
+        - **Eje Y**: Precio ajustado
+    - **Propósito**: Mostrar la variabilidad en los precios de las acciones de los sectores, comparando la volatilidad durante diferentes fases de la pandemia.
+    
+    **Gráfico 4: Outliers por Empresa (Junio 2019- Junio 2022)**
+    
+    - Tipo: **Gráfico de barras**
+    - Ejes:
+        - **Eje X**: Empresa
+        - **Eje Y**: Cantidad de outliers
+    - **Propósito**: Identificar los sectores y empresas que mostraron mayor número de valores atípicos (outliers) en su comportamiento de precios durante el periodo.
+  
+-  **Comparación de Rendimientos**
+  
+    **Gráfico 5: Rendimiento Porcentual Acumulados por Periodo**
+    
+    - Tipo: **Gráfico de barras**
+    - Ejes:
+        - **Eje X**: Retornos acumulado
+        - **Eje Y**: Ticker
+    - **Propósito**: Mostrar la variabilidad en los en los retornos acumulados de los distintos sectores en las diferentes fases de la pandemia.
+    
+    **Gráfico 6: Correlación de Rendimientos** 
+    
+    - Tipo: **Tabla Dinámica con** **Heatmap**
+    - Ejes:
+        - **Fila**: Ticker
+        - **Columna**: Valores de correlación
+    - **Propósito**: Medir la correlación entre los rendimientos de los sectores, identificando relaciones positivas o negativas en su comportamiento durante la pandemia.
+  
+-  **Análisis de Tendencias y Estacionalidad**
+  
+    **Gráfico 7: Descomposición de Series Temporales - Estacionalidad**
+    
+    - Tipo: **Gráfico de líneas múltiples**
+    - Ejes:
+        - **Eje X**: Tiempo
+        - **Eje Y**: Componente de estacionalidad
+    - **Propósito**: Visualizar los patrones estacionales identificados en el análisis de series temporales para cada sector y empresa.
+      
+    **Gráfico 8: Descomposición de Series Temporales - Tendencia**
+   
+    - Tipo: **Gráfico de líneas múltiples**
+    - Ejes:
+        - **Eje X**: Tiempo
+        - **Eje Y**: Componente de tendencia
+    - **Propósito**: Visualizar la tendencia por serie temporal para cada sector y empresa.
+  
+-  **Resumen**
+  
+    **Gráfico 8: Top 5: Empresas con Mayores Retornos Porcentuales Acumulados**
+    
+    - Tipo: **Gráfico de barras**
+    - Ejes:
+        - **Eje X**: Retornos acumulado
+        - **Eje Y**: Ticker
+    - **Propósito**: Mostrar las 5 empresas con mayor retorno acumulado en cada periodo de estudio.
+      
+    **Gráfico 9: Top 5: Empresas con Menores Retornos Porcentuales Acumulados**
+   
+    - Tipo: **Gráfico de barras**
+    - Ejes:
+        - **Eje X**: Retornos acumulado
+        - **Eje Y**: Ticker
+    - **Propósito**: Mostrar las 5 empresas con menor retorno acumulado en cada periodo de estudio.
+      
+    **Gráfico 10: Retorno Porcentual Promedio por Sector**
+   
+    - Tipo: **Gráfico de líneas**
+    - Ejes:
+        - **Eje X**: Retornos acumulado
+        - **Eje Y**: Sector
+    - **Propósito**: Identificar la evolución de los retornos acomunados por sector durante los periodos de estudio.
+      
+    **Gráfico 11: Retorno Porcentual Promedio**
+   
+    - Tipo: **Score Card**
+    - Métrica: Promedio de retorno acumulado
+  
+    Las visualizaciones disponen de filtros:
+    
+    - Selector de sector (Supermercados, Farmacéutica, Tecnología, etc.)
+    - Periodo de estudio (pre-pandemia, pandemia y post-pandemia)
+
+### **6. Conclusiones**
+
+1. **Impacto Diferenciado**:  Algunos sectores, como el **tecnológico** y los **supermercados**, experimentaron un auge significativo durante el confinamiento, otros, como el **sector energético** y **manufacturero**, enfrentaron grandes desafíos iniciales, pero se recuperaron fuertemente en la etapa post-pandemia.
+   
+2. **Volatilidad Sectorial**: Durante la pandemia los sectores en general estuvieron afectos a la volatilidad de sus precios, especialmente en **energía** y **e-commerce**, debido a la disrupción en las cadenas de suministro y fluctuaciones en la demanda. Sin embargo, sectores como **farmacéutica** y **supermercados** mantuvieron una mayor estabilidad durante este periodo, en parte por la demanda continua de productos esenciales y avances médicos.
+   
+3. **Augue del Trabajo Remoto**: El sector de **tecnología de comunicación**, representado por empresas como **Zoom** y **Microsoft**, creció exponencialmente durante la pandemia debido al auge del trabajo remoto. Sin embargo, en la etapa post-pandemia, empresas como **Zoom** enfrentaron fuertes correcciones a medida que la demanda por herramientas digitales se estabilizaba.
+   
+4. **Recuperación del Sector Energético**: Después de una caída pronunciada en 2020, el sector de **energía** se recuperó notablemente en 2021-2022 lo cual se podria explicar por la reactivación de la demanda de petróleo y el incremento en los precios de los combustibles. Empresas como **Chevron** y **ExxonMobil** se beneficiaron de esta recuperación, mostrando un rendimiento positivo en el periodo de post-pandemia.
+ 
+5. **Sector E-commerce**: Aunque el sector experimentó un auge durante la pandemia debido al aumento de las compras en línea, empresas como **Amazon** y **Alibaba** sufrieron importantes correcciones post-pandemia, Lo cual se puede atribuir a una normalizacion de la demanda en sectores mas tradicionales.
+   
+6. **Evoluación del Sector Financiero**: El sector mostró un rendimiento resiliente durante la pandemia, impulsado por políticas monetarias expansivas y estímulos económicos implementados por el contexto de pandemia. Sin embargo, en la fase post-pandemia, este sector sufrió correcciones importantes, reflejando las incertidumbres económicas globales y nuevos desafios en los mercados financieros.
+   
+7. **Patrones de Correlación**: Se identificaron altas correlaciones dentro de sectores como **energía** y **finanzas**, lo que indica que las empresas dentro de un mismo sector tienden a moverse en direcciones similares. Por otro lado, la correlación negativa entre sectores como **tecnología** y **energía** evidencia que los retornos de estos sectores reaccionan de manera opuesta a ciertos eventos.
+
+### **7. Documentación y Repositorio en GitHub**
+
+- **Estructura del Repositorio**:
+    - `data/`: Carpeta que contiene los archivos CSV con los datos crudos y limpios utilizados en el EDA y Dashboard.
+    - `scripts/`: Scripts de recolección y limpieza de datos.
+    - `notebooks/`: Notebooks con el análisis exploratorio de datos y visualizaciones.
+    - `README.md`: Descripción detallada del proyecto.
+    - `visualizations/`: Carpeta con las visualizaciones generadas.
+
+
