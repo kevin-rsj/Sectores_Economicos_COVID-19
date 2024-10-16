@@ -32,7 +32,8 @@ Se descargan los datos históricos de cada empresa, agrupados por sector, para e
 - **Script de Limpieza de Datos**: script ([“data_cleaning_py”](https://github.com/kevin-rsj/Sectores_Economicos_COVID-19/blob/main/Scripts/data_cleaning.py.py)), asegurando que los datos estén listos para el análisis exploratorio, se genera guarda el resultado en un archivo CSV ([“cleaned_data”](https://github.com/kevin-rsj/Sectores_Economicos_COVID-19/blob/main/Data/cleaned_data.csv)).
 
 ### **4. Análisis Exploratorio de Datos (EDA)**
-Este análisis examina el comportamiento del mercado bursátil en varios sectores durante la pandemia de COVID-19. A través de un enfoque sectorial, se busca identificar patrones y diferencias clave en el rendimiento de las acciones a lo largo de este periodo. Para más detalles, consulta el ([notebook](https://github.com/kevin-rsj/Sectores_Economicos_COVID-19/blob/main/Notebooks/EDA_Sectores_Economicos_COVID-19.ipynb)).
+
+Este análisis examina el comportamiento del mercado bursátil en varios sectores durante la pandemia de COVID-19. A través de un enfoque sectorial, se busca identificar patrones y diferencias clave en el rendimiento de las acciones a lo largo del periodo. Para más detalles y código en python, consultar el ([notebook](https://github.com/kevin-rsj/Sectores_Economicos_COVID-19/blob/main/Notebooks/EDA_Sectores_Economicos_COVID-19.ipynb)).
 
 **4.1  Resumen Estadístico**:
 
@@ -73,26 +74,24 @@ El comportamiento del mercado fue heterogéneo, con sectores en crecimiento y ot
 
 **4.4. Volatilidad**:
 
-Durante la pandemia (2020), se registró un aumento generalizado en la volatilidad de los retornos diarios en todos los sectores analizados. Por ejemplo, los tickers de e-commerce como AMZN, BABA y EBAY experimentaron incrementos en su volatilidad, pasando de promedios pre-pandemia de 0.013733, 0.018401 y 0.016821 a 0.022406, 0.026101 y 0.023784, respectivamente. El sector energético también vio un aumento significativo, con BP, CVX y XOM subiendo de 0.012233, 0.012322 y 0.014112 a 0.036754, 0.035379 y 0.031248. Aunque la volatilidad se redujo tras la pandemia, sectores como el e-commerce, con BABA alcanzando 0.043596, continuaron mostrando alta volatilidad.
+Durante la pandemia (2020), se registró un aumento generalizado en la volatilidad de los retornos diarios en todos los sectores analizados. Por ejemplo, los tickers de e-commerce como AMZN, BABA y EBAY experimentaron incrementos en su volatilidad, pasando de promedios pre-pandemia de 0.014, 0.018 y 0.017 a 0.022, 0.026 y 0.024, respectivamente. El sector energético también vio un aumento significativo, con BP, CVX y XOM subiendo de 0.012, 0.012 y 0.014 a 0.037, 0.035 y 0.031. Aunque la volatilidad se redujo tras la pandemia, sectores como el e-commerce, con BABA alcanzando 0.044, continuaron mostrando alta volatilidad.
 
 **4.5. Rendimiento Acumulado (Total Returns)**
 
-Entre junio de 2019 y junio de 2022, los sectores económicos mostraron comportamientos diversos frente a la pandemia y su recuperación. En el periodo de pandemia, los sectores de Tecnologías de Comunicación y Supermercados destacaron, con Zoom (+193.10%) y Microsoft (+46.30%) impulsados por la demanda de trabajo remoto, y Kroger (+27.86%) y Costco (+26.89%) por el aumento en la demanda de productos esenciales. El sector financiero también tuvo un desempeño notable, con Goldman Sachs (+82.10%) y JPMorgan (+41.00%).
+Entre los meses de junio de 2019 y junio de 2022, los sectores económicos mostraron comportamientos diversos frente a la pandemia y su recuperación. En el periodo de pandemia, los sectores de Tecnologías de Comunicación y Supermercados destacaron, con Zoom (+193.10%) y Microsoft (+46.30%) impulsados por la demanda de trabajo remoto, y Kroger (+27.86%) y Costco (+26.89%) por el aumento en la demanda de productos esenciales. El sector financiero también tuvo un desempeño notable, con Goldman Sachs (+82.10%) y JPMorgan (+41.00%).
 
-El sector farmacéutico se mantuvo estable, con Johnson & Johnson (+24.92%) y Pfizer (+23.10%) beneficiándose de su participación en el desarrollo de vacunas. Por su parte, tras el auge pandémico, el e-commerce sufrió correcciones significativas, con Alibaba (-47.13%) y Amazon (-32.32%).
-
-Post-pandemia, el sector energético mostró una notable recuperación, con ExxonMobil (+53.16%) y Chevron (+43.95%) beneficiándose del aumento en los precios del petróleo. Los sectores de tecnología y supermercados lideraron durante la pandemia, mientras que el energético demostró una gran capacidad de recuperación, y el e-commerce enfrentó importantes correcciones.
+El sector farmacéutico se mantuvo estable, Johnson & Johnson (+24.92%) y Pfizer (+23.10%) se beneficiaron por su participación en el desarrollo de vacunas. Por su parte, tras el auge pandémico, el e-commerce sufrió correcciones significativas, con Alibaba (-47.13%) y Amazon (-32.32%). En post-pandemia, el sector energético mostró una notable recuperación con ExxonMobil (+53.16%) y Chevron (+43.95%) beneficiándose del aumento en los precios del petróleo. 
 
 
 **4.6. Correlación entre Sectores**
 
-En el análisis de correlación entre sectores, se observa una alta correlación positiva entre empresas del sector energético, como Chevron (CVX) y ExxonMobil (XOM), con un coeficiente de 0.97. También, las empresas financieras como JPMorgan (JPM), Goldman Sachs (GS) y Bank of America (BAC) presentan una correlación moderada (entre 0.5 y 0.8), lo que indica que sus retornos tienden a moverse en la misma dirección. 
+En el análisis de correlación entre sectores, se observa una alta correlación positiva entre empresas del sector energético, como Chevron (CVX) y ExxonMobil (XOM), con un coeficiente de 0.97. También, las empresas financieras como JPMorgan (JPM), Goldman Sachs (GS) y Bank of America (BAC) presentan una correlación significativa (entre 0.5 y 0.8), lo que indica que sus retornos tienden a moverse en la misma dirección. 
 
 Por otro lado, algunas empresas del sector tecnológico como Zoom (ZM) y ExxonMobil (XOM) de energia, presentan una correlación negativa (-0.79), sugiriendo que sus retornos tienden a moverse en direcciones opuestas.
 
 **4.7. Análisis de Tendencias y Estacionalidad**
 
-El análisis de descomposición de series de tiempo revela patrones significativos durante la pandemia, donde la mayoría de las empresas experimentaron caídas drásticas en sus valores estacionales. No obstante, algunas, como ExxonMobil (XOM), Verizon (VZ), Merck (MRK), Johnson & Johnson (JNJ) y Amazon (AMZN), mostraron notable resiliencia, recuperándose más rápidamente. En el periodo post-pandemia, varias de estas empresas mantienen una tendencia positiva y un crecimiento robusto, incluyendo a ExxonMobil, Pfizer (PFE), Microsoft (MSFT), Kroger (KR), Costco (COST), Caterpillar (CAT) y BP (BP). 
+El análisis de descomposición de series de tiempo revela patrones significativos durante la pandemia, la mayoría de las empresas experimentaron caídas drásticas en sus valores estacionales. No obstante, algunas empresas como ExxonMobil (XOM), Verizon (VZ), Merck (MRK), Johnson & Johnson (JNJ) y Amazon (AMZN) mostraron notable resiliencia, recuperándose más rápidamente. En el periodo post-pandemia, varias de estas empresas mantienen una tendencia positiva y un crecimiento robusto, incluyendo a ExxonMobil, Pfizer (PFE), Microsoft (MSFT), Kroger (KR), Costco (COST), Caterpillar (CAT) y BP (BP). 
 
 ### **5. Visualización de Resultados**
 **5.1 Gráficos**
@@ -104,7 +103,7 @@ El dashboard del proyecto, que resume los análisis y resultados del Análisis E
 
 -  **Portada**
   
-    - **Titulo: Análisis de Sectores Económicos: Impacto de la Pandemia de COVID-19 (2019-2022**
+    - **Titulo: Análisis de Sectores Económicos: Impacto de la Pandemia de COVID-19 (2019-2022)**
     - **Descripción** : Un análisis visual de los principales sectores económicos antes, durante y después de la pandemia de COVID-19. Se incluye la evolución de precios, volatilidad, y tendencias de recuperación de empresas representativas.
     - **Periodo Analizado**: Junio 2019 - Junio 2022.
     
@@ -218,13 +217,13 @@ El dashboard del proyecto, que resume los análisis y resultados del Análisis E
 
 ### **6. Conclusiones**
 
-1. **Impacto Diferenciado**:  Algunos sectores, como el **tecnológico** y los **supermercados**, experimentaron un auge significativo durante el confinamiento, otros, como el **sector energético** y **manufacturero**, enfrentaron grandes desafíos iniciales, pero se recuperaron fuertemente en la etapa post-pandemia.
+1. **Impacto Diferenciado**:  Algunos sectores como  **tecnológia** y  **supermercados**, experimentaron un auge significativo durante el confinamiento. Por su parte,  el sector **energético** y **manufacturero** enfrentaron grandes desafíos iniciales, pero se recuperaron fuertemente en la etapa post-pandemia.
    
 2. **Volatilidad Sectorial**: Durante la pandemia los sectores en general estuvieron afectos a la volatilidad de sus precios, especialmente en **energía** y **e-commerce**, debido a la disrupción en las cadenas de suministro y fluctuaciones en la demanda. Sin embargo, sectores como **farmacéutica** y **supermercados** mantuvieron una mayor estabilidad durante este periodo, en parte por la demanda continua de productos esenciales y avances médicos.
    
-3. **Augue del Trabajo Remoto**: El sector de **tecnología de comunicación**, representado por empresas como **Zoom** y **Microsoft**, creció exponencialmente durante la pandemia debido al auge del trabajo remoto. Sin embargo, en la etapa post-pandemia, empresas como **Zoom** enfrentaron fuertes correcciones a medida que la demanda por herramientas digitales se estabilizaba.
+3. **Augue del Trabajo Remoto**: El sector de **tecnología de comunicación**, representado por empresas como **Zoom** y **Microsoft** creció exponencialmente durante la pandemia debido al auge del trabajo remoto. Sin embargo, en la etapa post-pandemia, empresas como **Zoom** enfrentaron fuertes correcciones a medida que la demanda por herramientas digitales se estabilizaba.
    
-4. **Recuperación del Sector Energético**: Después de una caída pronunciada en 2020, el sector de **energía** se recuperó notablemente en 2021-2022 lo cual se podria explicar por la reactivación de la demanda de petróleo y el incremento en los precios de los combustibles. Empresas como **Chevron** y **ExxonMobil** se beneficiaron de esta recuperación, mostrando un rendimiento positivo en el periodo de post-pandemia.
+4. **Recuperación del Sector Energético**: Después de una caída pronunciada en 2020, el sector de **energía** se recuperó notablemente en 2021-2022 lo cual se podria explicar por la reactivación de la demanda de petróleo y el incremento en los precios de los combustibles. Empresas como **Chevron** y **ExxonMobil** se beneficiaron de esta recuperación mostrando un rendimiento positivo en el periodo de post-pandemia.
  
 5. **Sector E-commerce**: Aunque el sector experimentó un auge durante la pandemia debido al aumento de las compras en línea, empresas como **Amazon** y **Alibaba** sufrieron importantes correcciones post-pandemia, Lo cual se puede atribuir a una normalizacion de la demanda en sectores mas tradicionales.
    
