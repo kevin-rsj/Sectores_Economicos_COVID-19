@@ -217,7 +217,7 @@ El dashboard del proyecto, que resume los análisis y resultados del Análisis E
 
 ### **6. Conclusiones**
 
-1. **Impacto Diferenciado**:  Algunos sectores como  **tecnológia** y  **supermercados**, experimentaron un auge significativo durante el confinamiento. Por su parte,  el sector **energético** y **manufacturero** enfrentaron grandes desafíos iniciales, pero se recuperaron fuertemente en la etapa post-pandemia.
+1. **Impacto Diferenciado**:  Algunos sectores como  **tecnología** y  **supermercados**, experimentaron un auge significativo durante el confinamiento. Por su parte,  el sector **energético** y **manufactura** enfrentaron grandes desafíos iniciales, pero se recuperaron fuertemente en la etapa post-pandemia.
    
 2. **Volatilidad Sectorial**: Durante la pandemia los sectores en general estuvieron afectos a la volatilidad de sus precios, especialmente en **energía** y **e-commerce**, debido a la disrupción en las cadenas de suministro y fluctuaciones en la demanda. Sin embargo, sectores como **farmacéutica** y **supermercados** mantuvieron una mayor estabilidad durante este periodo, en parte por la demanda continua de productos esenciales y avances médicos.
    
@@ -227,7 +227,7 @@ El dashboard del proyecto, que resume los análisis y resultados del Análisis E
  
 5. **Sector E-commerce**: Aunque el sector experimentó un auge durante la pandemia debido al aumento de las compras en línea, empresas como **Amazon** y **Alibaba** sufrieron importantes correcciones post-pandemia, Lo cual se puede atribuir a una normalizacion de la demanda en sectores mas tradicionales.
    
-6. **Evoluación del Sector Financiero**: El sector mostró un rendimiento resiliente durante la pandemia, impulsado por políticas monetarias expansivas y estímulos económicos implementados por el contexto de pandemia. Sin embargo, en la fase post-pandemia, este sector sufrió correcciones importantes, reflejando las incertidumbres económicas globales y nuevos desafios en los mercados financieros.
+6. **Evolución del Sector Financiero**: El sector mostró un rendimiento resiliente durante la pandemia, impulsado por políticas monetarias expansivas y estímulos económicos implementados por el contexto de pandemia. Sin embargo, en la fase post-pandemia, este sector sufrió correcciones importantes, reflejando las incertidumbres económicas globales y nuevos desafios en los mercados financieros.
    
 7. **Patrones de Correlación**: Se identificaron altas correlaciones dentro de sectores como **energía** y **finanzas**, lo que indica que las empresas dentro de un mismo sector tienden a moverse en direcciones similares. Por otro lado, la correlación negativa entre sectores como **tecnología** y **energía** evidencia que los retornos de estos sectores reaccionan de manera opuesta a ciertos eventos.
 
